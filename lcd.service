@@ -1,0 +1,12 @@
+[Unit]
+Description=LCD
+
+[Service]
+WorkingDirectory=/home/admin/U6143_ssd1306/C
+ExecStart=/home/admin/U6143_ssd1306/C/display
+User=admin
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
