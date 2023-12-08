@@ -2,9 +2,9 @@
 Description=LCD
 
 [Service]
-WorkingDirectory=/home/admin/U6143_ssd1306/C
-ExecStart=/home/admin/U6143_ssd1306/C/display
-User=admin
+WorkingDirectory=/home/skywick/U6143_ssd1306/C
+ExecStart=/home/skywick/U6143_ssd1306/C/display
+User=skywick
 Restart=always
 RestartSec=10
 
